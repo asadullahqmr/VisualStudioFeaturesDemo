@@ -7,7 +7,7 @@ namespace VisualStudioFeaturesDemo.Classes
         #region Properties
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string FullName => FirstName + " " LastName;
+        public string FullName => FirstName + " " + LastName;
         public int Age { get; set; }
         #endregion
 
